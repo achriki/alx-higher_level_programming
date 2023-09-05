@@ -6,4 +6,4 @@ for i in range(122, 96, -1):
         i = chr(i + (ord('A') - ord('a')))
     else:
         i = chr(i)
-    print(i, end="")
+    print("{:s}".format(i), end="")
