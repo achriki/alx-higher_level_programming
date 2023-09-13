@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
     key_max = ""
-    if a_dictionary is not None and a_dictionary != {}:
-        key_max = max(a_dictionary)
-    else:
+    if not a_dictionary and a_dictionary == {}:
         key_max = None
+    else:
+        key_max = max(a_dictionary)
     return key_max
